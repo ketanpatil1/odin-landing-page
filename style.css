@@ -86,9 +86,13 @@ ul a:hover {
 .hero {
     flex-wrap: wrap;
     width: 1200px;
-    padding: 0 24px;
     justify-content: space-between;
     gap: 64px;
+}
+
+.hero-text,
+.hero-image-container {
+    padding: 0 24px;
 }
 
 .hero-text h1,
@@ -108,7 +112,7 @@ ul a:hover {
 
 .hero-image {
     background-color: #6d747d;
-    width: 400px;
+    max-width: 400px;
     height: 250px;
 }
 
